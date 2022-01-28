@@ -1,10 +1,9 @@
 {
   "name": "WhatsApp Shortcut",
-  "description": null,
   "version": "0.1",
   "manifest_version": 2,
   "icons": {
-      "16": "./public/images/icons/whatsapp_16",
+      "16": "./public/images/icons/whatsapp_16.png",
       "64": "./public/images/icons/whatsapp_64.png",
       "128":"./public/images/icons/whatsapp_128.png"},
   "browser_action":{

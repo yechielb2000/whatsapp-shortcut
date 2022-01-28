@@ -1,25 +1,43 @@
 html, body {
-  background-color: aquamarine;
-  width: 500px;
-  height: 500px;
-  font-family: "Dongle", sans-serif;
-  font-size: 15px;
-}
-
-.profile-container {
+  margin: 0;
+  background-color: #9ce866;
   width: -webkit-max-content;
   width: -moz-max-content;
   width: max-content;
+  height: inherit;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background-color: darkseagreen;
+  font-size: 1.2rem;
+  font-family: sans-serif;
 }
 
-.user-name-bio {
-  margin-left: 5px;
-  margin-right: 5px;
+.link {
+  text-decoration: none;
+  outline: none;
+  text-decoration: none;
+  padding: 2px 1px 0;
+}
+
+.link:hover {
+  background: #b1f581;
+}
+
+.link:focus {
+  background: #b1f581;
+}
+
+.link:active {
+  background: #62b329;
+  color: #b1f581;
+}
+
+p {
+  line-height: 1.4;
 }

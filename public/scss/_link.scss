@@ -1,0 +1,20 @@
+.link{
+    text-decoration: none;
+    outline: none;
+    text-decoration: none;
+    padding: 2px 1px 0;
+    &:hover {
+        background: $background-link;
+    }
+    &:focus {
+        background: $background-link;
+    }
+    &:active {
+        background: $active-background-link;
+        color: $background-link;
+    } 
+}
+
+p{
+    line-height: 1.4;
+}

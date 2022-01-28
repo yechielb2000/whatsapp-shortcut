@@ -1,7 +1,11 @@
 html, body{
-    background-color:aquamarine;
-    width: 500px;
-    height: 500px;
-    font-family: $basic-font;
-    font-size: 15px;
+    margin: 0;
+    background-color:#9ce866;
+    width: max-content;
+    height: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    font-family: $font;
 }
